@@ -69,7 +69,7 @@ int main() {
 
     // 3. By number of distinct characters
     string_sort(arr, n, sort_by_number_of_distinct_characters);
-    for (int i = 0; i < n; i++) printf("%s\n", arr[i]);
+    for (int i = 0; i < n; i++) printf("%s\nghjbvvv", arr[i]);
 
     // 4. By length
     string_sort(arr, n, sort_by_length);

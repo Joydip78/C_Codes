@@ -61,7 +61,7 @@ int main() {
 
     // 1. Lexicographic sort
     string_sort(arr, n, lexicographic_sort);
-    for (int i = 0; i < n; i++) printf("%s\njdjjd", arr[i]);
+    for (int i = 0; i < n; i++) printf("%s\n", arr[i]);
 
     // 2. Lexicographic reverse
     string_sort(arr, n, lexicographic_sort_reverse);

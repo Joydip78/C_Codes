@@ -99,7 +99,7 @@ int main()
 
     int result_count;
     int* result = compareTriplets(3, a, 3, b, &result_count);
-
+    printf("The output is :\n");
     for (int i = 0; i < result_count; i++) {
         fprintf(fptr, "%d", *(result + i));
         printf("%d", *(result + i));

@@ -45,7 +45,7 @@ int main()
 
     int result = jumpingOnClouds(n, c);
 
-    printf("%d",result);
+    printf("Number of jumps required : %d",result);
 
     fprintf(fptr, "%d\n", result);
 

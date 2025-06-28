@@ -89,13 +89,13 @@ int main() {
         appendNode(&head, arr[i]);
     }
     
-    printf("Original list:\n");
+    printf("Original list :\n");
     printList(head);
     
     // Reverse nodes in k-group.
     head = reverseKGroup(head, k);
     
-    printf("List after reversing in groups of %d:\n", k);
+    printf("List after reversing in groups of %d :\n", k);
     printList(head);
     
     // Free the allocated memory.

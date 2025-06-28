@@ -33,9 +33,8 @@ int main()
 		scanf("%d%d%d", &boxes[i].length, &boxes[i].width, &boxes[i].height);
 	}
 	for (int i = 0; i < n; i++) {
-		if (is_lower_than_max_height(boxes[i])) {
+		if (is_lower_than_max_height(boxes[i]))
 			printf("%d\n", get_volume(boxes[i]));
-		}
 	}
 	return 0;
 }

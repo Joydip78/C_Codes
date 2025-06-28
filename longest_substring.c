@@ -22,6 +22,6 @@ int lengthOfLongestSubstring(char * s) {
 int main() {
     char s[] = "abcabcbb";
     int result = lengthOfLongestSubstring(s);
-    printf("Length of longest substring without repeating characters: %d\n", result);
+    printf("Length of longest substring without repeating characters : %d\n", result);
     return 0;
 }

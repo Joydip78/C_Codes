@@ -22,6 +22,6 @@ int numSquares(int n) {
 int main() {
     int n = 13;
     int result = numSquares(n);
-    printf("Least number of perfect squares for %d is %d\n", n, result);
+    printf("The least number of perfect squares for %d is %d\n", n, result);
     return 0;
 }

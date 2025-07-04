@@ -16,7 +16,7 @@ int lengthOfLongestSubstring(char * s) {
         int len = end - start + 1;
         if (len > maxLen) maxLen = len;
     }
-
+    //return the length of max substring 
     return maxLen;
 }
 int main() {

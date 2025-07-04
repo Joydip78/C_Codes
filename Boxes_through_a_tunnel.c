@@ -5,7 +5,7 @@
 
 #define MAX_HEIGHT 41
 
-// Define the box structure
+// Box structure defined 
 struct box {
     int length;
     int width;

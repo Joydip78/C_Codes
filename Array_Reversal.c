@@ -2,6 +2,7 @@
 
 int main() {
     int n;
+    printf("Length of the Array ?");
     scanf("%d", &n);
     int arr[n];
 

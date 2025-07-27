@@ -38,7 +38,7 @@ int main() {
 
     int* result = maxSlidingWindow(nums, sizeof(nums) / sizeof(nums[0]), k, &returnSize);
 
-    printf("Sliding window maximums: ");
+    printf("Sliding window maximums are: ");
     for (int i = 0; i < returnSize; i++) {
         printf("%d ", result[i]);
     }

@@ -17,7 +17,7 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {
         if (front <= rear && dq[front] <= i - k)
             front++;
 
-        // Remove indices whose corresponding values are less than nums[i]
+        // Remove indices whose corresponding values are less than nums[i].
         while (front <= rear && nums[dq[rear]] < nums[i])
             rear--;
 
